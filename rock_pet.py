@@ -71,16 +71,16 @@ def rock_simulator():
         
         
         if hunger >= 10:
-            print(f"Oh no! {rock_name} crumbled from neglect (too hungry). 💀")
+            print(f"Oh no! {rock_name} crumbled from neglect (too hungry).")
             break
         elif energy <= 0:
-            print(f"{rock_name} has no energy left and turned into gravel. 🪨➡️🪨🪨")
+            print(f"{rock_name} has no energy left and turned into gravel.")
             break
         elif weight <= 0:
-            print(f"{rock_name} eroded away into sand. 🏖️")
+            print(f"{rock_name} eroded away into sand.")
             break
         elif weight >= 10:
-            print(f"{rock_name} grew so heavy it sank into the earth forever. 🌍")
+            print(f"{rock_name} grew so heavy it sank into the earth forever.")
             break
 
         time.sleep(1)
